@@ -1,0 +1,108 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_droid_netherrack:heated_cobble_powder"
+  },
+  "transitional_item": {
+    "id": "create_droid_netherrack:incomplete_netherrack_powder"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
+        },
+        {
+          "item": "minecraft:flint"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_netherrack:incomplete_netherrack_powder"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_netherrack:incomplete_netherrack_powder"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
+        },
+        {
+          "item": "create:powdered_obsidian"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_netherrack:incomplete_netherrack_powder"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
+        },
+        {
+          "type": "fluid_stack",
+          "fluid": "minecraft:lava",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_netherrack:incomplete_netherrack_powder"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_netherrack:incomplete_netherrack_powder"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:netherrack",
+      "count": 3,
+      "chance": 0.80
+    },
+    {
+      "id": "minecraft:netherrack",
+      "count": 1,
+      "chance": 0.05
+    },
+    {
+      "id": "create_droid_netherrack:heated_cobble_powder",
+      "count": 1,
+      "chance": 0.15
+    }
+  ],
+  "loops": 2
+}
