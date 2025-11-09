@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "droid_create_netherrack_recipe:block/heated_cracked_cobble"
-  }
-}

@@ -11,11 +11,7 @@
   ],
   "results": [
     {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/cobble_to_heated_cracked_cobble.json
-      "item": "droid_create_netherrack_recipe:heated_cracked_cobble",
-========
       "item": "create_droid_netherrack:heated_cracked_cobble",
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/cobble_to_heated_cracked_cobble.json
       "count": 1
     }
   ],

@@ -1,21 +1,17 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "droid_create_netherrack_recipe:heated_cobble_powder"
+    "item": "create_droid_netherrack:heated_cobble_powder"
   },
   "transitionalItem": {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_2.json
-    "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
     "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_2.json
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         },
         {
           "item": "minecraft:nether_brick"
@@ -23,11 +19,7 @@
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_2.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_2.json
         }
       ]
     },
@@ -35,16 +27,12 @@
       "type": "create:cutting",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         }
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_2.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_2.json
         }
       ],
       "processingTime": 50
@@ -53,7 +41,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         },
         {
           "fluid": "minecraft:lava",
@@ -63,11 +51,7 @@
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_2.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_2.json
         }
       ]
     },
@@ -75,16 +59,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         }
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_2.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_2.json
         }
       ]
     }
@@ -101,14 +81,10 @@
       "chance": 0.35
     },
     {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_2.json
-      "item": "droid_create_netherrack_recipe:heated_cobble_powder",
-========
       "item": "create_droid_netherrack:heated_cobble_powder",
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_2.json
       "count": 1,
       "chance": 0.15
     }
   ],
-  "loops": 5
+  "loops": 2
 }

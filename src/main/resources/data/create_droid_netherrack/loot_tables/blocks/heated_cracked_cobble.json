@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "droid_create_netherrack_recipe:heated_cracked_cobble"
+          "name": "create_droid_netherrack:heated_cracked_cobble"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "droid_create_netherrack_recipe:blocks/heated_cracked_cobble"
+  "random_sequence": "create_droid_netherrack:blocks/heated_cracked_cobble"
 }

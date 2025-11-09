@@ -1,21 +1,17 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "droid_create_netherrack_recipe:heated_cobble_powder"
+    "item": "create_droid_netherrack:heated_cobble_powder"
   },
   "transitionalItem": {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_1.json
-    "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
     "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_1.json
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         },
         {
           "item": "minecraft:flint"
@@ -23,11 +19,7 @@
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_1.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_1.json
         }
       ]
     },
@@ -35,7 +27,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         },
         {
           "item": "minecraft:charcoal"
@@ -43,11 +35,7 @@
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_1.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_1.json
         }
       ]
     },
@@ -55,7 +43,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         },
         {
           "item": "create:powdered_obsidian"
@@ -63,11 +51,7 @@
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_1.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_1.json
         }
       ]
     },
@@ -75,7 +59,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         },
         {
           "fluid": "minecraft:lava",
@@ -85,11 +69,7 @@
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_1.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_1.json
         }
       ]
     },
@@ -97,16 +77,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
+          "item": "create_droid_netherrack:incomplete_netherrack_powder"
         }
       ],
       "results": [
         {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_1.json
-          "item": "droid_create_netherrack_recipe:incomplete_netherrack_powder"
-========
           "item": "create_droid_netherrack:incomplete_netherrack_powder"
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_1.json
         }
       ]
     }
@@ -123,14 +99,10 @@
       "chance": 0.05
     },
     {
-<<<<<<<< Updated upstream:src/main/resources/data/droid_create_netherrack_recipe/recipes/netherrack_assembly_1.json
-      "item": "droid_create_netherrack_recipe:heated_cobble_powder",
-========
       "item": "create_droid_netherrack:heated_cobble_powder",
->>>>>>>> Stashed changes:src/main/resources/data/create_droid_netherrack/recipes/netherrack_assembly_1.json
       "count": 1,
       "chance": 0.15
     }
   ],
-  "loops": 5
+  "loops": 2
 }
