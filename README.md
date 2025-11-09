@@ -4,4 +4,4 @@ This is a Minecraft mod addon for the Create Mod. This mod allows you to have a 
 
 This mod creates 2 types of recipe for the creation of Netherrack. You can view them using JEI.
 
-The Create mod is required when using the mod.
+The Create mod is required.

@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+<<<<<<< Updated upstream
     "droid_create_netherrack_recipe:heated_cracked_cobble"
+=======
+    "create_droid_netherrack:heated_cracked_cobble"
+>>>>>>> Stashed changes
   ]
 }
