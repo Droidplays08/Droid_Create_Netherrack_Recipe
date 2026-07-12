@@ -35,8 +35,6 @@ public class CreateDroidNetherrack
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
-
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
